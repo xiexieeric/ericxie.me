@@ -1,0 +1,13 @@
+//core imports
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'text';
+@import 'font-awesome/font-awesome';
+
+//layout components
+@import 'header';
+@import 'footer';
+
+//about page
+@import 'about';

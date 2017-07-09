@@ -1,0 +1,95 @@
+@mixin text-base($size, $weight, $color, $height)
+{
+  font-family: $font-main;
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+  color: $color;
+  text-decoration: none;
+}
+
+@mixin Link-fade
+{
+  transition: opacity 500ms;
+  &:hover
+  {
+    opacity: 0.6;
+  }
+}
+
+@mixin Link-inactive
+{
+  pointer-events: none;
+  cursor: default;
+  border-bottom: 2px black solid;
+}
+
+@mixin Text-sm-black
+{
+  @include text-base(16px, 300, black, 1.4);
+}
+
+@mixin Text-sm-black-bold
+{
+  @include text-base(16px, 700, black, 1.4);
+}
+
+@mixin Text-md-black
+{
+  @include text-base(24px, 300, black, 1);
+}
+
+@mixin Text-md-black-bold
+{
+  @include text-base(24px, 700, black, 1);
+}
+
+@mixin Heading-title
+{
+  @include text-base(60px, 700, black, 0.85);
+}
+
+@mixin Heading-subtitle
+{
+  @include text-base(36px, 300, black, 0.85);
+}
+
+.Text-sm-black
+{
+  @include Text-sm-black;
+}
+
+.Text-sm-black-bold
+{
+  @include Text-sm-black-bold;
+}
+
+.Text-md-black
+{
+  @include Text-md-black;
+}
+
+.Text-md-black-bold
+{
+  @include Text-md-black-bold;
+}
+
+.Heading-title
+{
+  @include Heading-title;
+}
+
+.Heading-subtitle
+{
+  @include Heading-subtitle;
+}
+
+.Link-fade
+{
+  @include Link-fade;
+}
+
+.Link-inactive
+{
+  @include Link-inactive;
+}

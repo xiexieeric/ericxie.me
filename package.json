@@ -1,0 +1,22 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "Eric Xie's portfolio website.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js & npm run livereload & npm run sass:watch",
+    "livereload": "livereload './views/, ./public/' -e 'handlebars'",
+    "sass:watch": "node-sass -w ./sass -o ./public/css"
+  },
+  "author": "Eric Xie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "livereload": "^0.6.2",
+    "node-sass": "^4.5.3"
+  }
+}

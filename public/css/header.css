@@ -1,0 +1,16 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 15px; }
+
+.HeaderLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .HeaderLinks-item {
+    display: inline; }
+
+@Link-fade &:not(:first-child) {
+  .HeaderLinks-item {
+    margin-left: 10px; } }

@@ -1,0 +1,114 @@
+.Header
+{
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 15px;
+
+  &-toggle
+  {
+    height: 45px;
+    width: 45px;
+    position: relative;
+
+    @include bpgte(sm)
+    {
+      width: 0%;
+      display: none;
+    }
+  }
+  &-hamburger
+  {
+    display: block;
+    background-color: black;
+    height: 6px;
+    width: 100%;
+    position: absolute;
+    border-radius: 6px;
+    opacity: 1;
+    left: 0;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+
+    &:nth-child(1)
+    {
+      top: 4px;
+
+      .open &
+      {
+        top: 16px;
+        transform: rotate(135deg);
+      }
+    }
+
+    &:nth-child(2)
+    {
+      top: 16px;
+
+      .open &
+      {
+        opacity: 0;
+        left: -60px;
+      }
+    }
+
+    &:nth-child(3)
+    {
+      top: 28px;
+
+      .open &
+      {
+        top: 16px;
+        transform: rotate(-135deg);
+      }
+    }
+  }
+}
+
+.HeaderLinks
+{
+  flex-direction: column;
+  justify-content: center;
+  left: 0px;
+  padding-left: 15px;
+  background-color: white;
+  top: 80px;
+  position: absolute;
+  width: 100vw;
+  height: 0px;
+  overflow: hidden;
+  transition: height 350ms;
+
+  @include bpgte(sm)
+  {
+    width: auto;
+    position: static;
+    display: flex;
+    height: auto;
+  }
+
+  .open &
+  {
+    height: 150px;
+  }
+
+  &-item
+  {
+    display: block;
+    margin-bottom: 10px;
+
+    @include bpgte(sm)
+    {
+      margin-bottom: 0;
+      display: inline;
+
+      &:not(:first-child)
+      {
+        margin-left: 10px;
+      }
+    }
+
+
+  }
+}

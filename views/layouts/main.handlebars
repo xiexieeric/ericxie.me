@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eric Xie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css"
+  </head>
+  <body>
+    <header id="Header" class="Header container">
+      <div class="Header-logo Heading-title">
+        Eric Xie
+      </div>
+      <div class="HeaderLinks">
+        <ul>
+          <li class="HeaderLinks-item"><a class="{{#if about}}Link-inactive{{else}}Link-fade{{/if}} Text-md-black"href="/about">About</a></li>
+          <li class="HeaderLinks-item"><a class="{{#if exp}}Link-inactive{{else}}Link-fade{{/if}} Text-md-black"href="/experience">Experience</a></li>
+          <li class="HeaderLinks-item"><a class="{{#if photo}}Link-inactive{{else}}Link-fade{{/if}} Text-md-black"href="/photography">Photography</a></li>
+          <li class="HeaderLinks-item"><a class="{{#if blog}}Link-inactive{{else}}Link-fade{{/if}} Text-md-black"href="/blog">Blog</a></li>
+        </ul>
+      </div>
+      <div id="Header-toggle" class="Header-toggle">
+        <span class="Header-hamburger"></span>
+        <span class="Header-hamburger"></span>
+        <span class="Header-hamburger"></span>
+      </div>
+    </header>
+    {{{body}}}
+    <footer class="Footer container">
+      <span class="Heading-subtitle">Connect With Me</span>
+      <ul class="SocialLinks">
+        <li class="SocialLinks-item"><a class="fa fa-facebook-official fa-2x" href="https://www.facebook.com/xiexieeric"></a></li>
+        <li class="SocialLinks-item"><a class="fa fa-github fa-2x" href="https://github.com/xiexieeric"></a></li>
+        <li class="SocialLinks-item"><a class="fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/xiexieeric/"></a></li>
+        <li class="SocialLinks-item"><a class="fa fa-flickr fa-2x" href="https://www.flickr.com/photos/xiexieeric/albums"></a></li>
+        <li class="SocialLinks-item"><a class="fa fa-medium fa-2x" href="https://medium.com/@xiexieeric"></a></li>
+      </ul>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

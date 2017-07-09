@@ -1,0 +1,63 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import "text";
+
+body
+{
+  background: url('/images/landing_bg.jpg');
+  background-size: cover;
+}
+.LandingText
+{
+  float: right;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 500ms, width 700ms;
+
+  @include bpgte(sm)
+  {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  *
+  {
+    color: white;
+    @include bpgte(sm)
+    {
+      color: black;
+    }
+  }
+
+  &-name
+  {
+    text-align: center;
+  }
+
+  &-nav
+  {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &-navItem
+  {
+    display: inline;
+    margin-bottom: 15px;
+    @include Link-fade;
+
+    &:not(:first-child)
+    {
+      margin-left: 15px;
+    }
+  }
+}
