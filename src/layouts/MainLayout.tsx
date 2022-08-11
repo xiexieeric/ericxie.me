@@ -11,7 +11,9 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <div>
       <Navigation />
-      <Container maxW="6xl">{children}</Container>
+      <Container maxW="6xl" marginTop="36px">
+        {children}
+      </Container>
       <Footer />
     </div>
   )

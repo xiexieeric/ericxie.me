@@ -6,11 +6,11 @@ interface NavigationProps {}
 
 export const Navigation: React.FC<NavigationProps> = ({}) => {
   return (
-    <Box height={'50px'}>
+    <Box bgColor={'gray.600'} padding="12px">
       <Container maxW="6xl">
-        <Box display={'flex'} alignItems={'center'} gap={'20px'}>
+        <Box display={'flex'} alignItems={'center'} gap={'20px'} color="white">
           <Link to="/" style={{ display: 'inline' }}>
-            <Text display={'inline'} fontSize={'36px'}>
+            <Text display={'inline'} fontSize="3xl" fontWeight={'bold'}>
               Eric Xie
             </Text>
           </Link>
