@@ -11,8 +11,10 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet',
     '@chakra-ui/gatsby-plugin',
     `gatsby-plugin-image`,
+    `gatsby-remark-images`,
     `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-source-filesystem',
@@ -25,6 +27,14 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
       },
     },
   ],

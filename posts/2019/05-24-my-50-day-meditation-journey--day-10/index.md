@@ -4,8 +4,6 @@ description: >-
   I first heard about Sam Harris through an episode of the Tim Ferriss Show. In
   that particular episode, Tim plays an audio essay by Sam…
 date: '2019-05-24T23:43:41.613Z'
-categories: []
-keywords: []
 published: true
 ---
 

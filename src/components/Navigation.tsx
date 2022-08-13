@@ -1,6 +1,8 @@
-import { Box, Container, Text } from '@chakra-ui/react'
+import { Box, Container, Text, Image } from '@chakra-ui/react'
 import { Link } from 'gatsby'
 import React from 'react'
+
+import wonderpal from '../images/wonderpal.png'
 
 interface NavigationProps {}
 
@@ -11,6 +13,14 @@ export const Navigation: React.FC<NavigationProps> = ({}) => {
         <Box display={'flex'} alignItems={'center'} gap={'20px'} color="white">
           <Link to="/" style={{ display: 'inline' }}>
             <Text display={'inline'} fontSize="3xl" fontWeight={'bold'}>
+              <Image
+                src={wonderpal}
+                height={'36px'}
+                display="inline"
+                borderRadius="full"
+                verticalAlign={'text-bottom'}
+                marginRight="12px"
+              />
               Eric Xie
             </Text>
           </Link>

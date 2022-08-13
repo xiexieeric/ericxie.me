@@ -11,7 +11,14 @@ export const Footer: React.FC<FooterProps> = ({}) => {
       <Container maxW="6xl">
         <Flex flexDir={'column'} alignItems={'center'}>
           <Text fontSize={24}>Connect With Me</Text>
-          <List display={'flex'} gap="16px">
+          <List
+            display={'flex'}
+            gap="16px"
+            backgroundColor={'gray.200'}
+            padding="12px"
+            borderRadius={'12px'}
+            margin="12px"
+          >
             <ListItem>
               <a href="https://github.com/xiexieeric">
                 <FontAwesomeIcon icon={faGithub} />
