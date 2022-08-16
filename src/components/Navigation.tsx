@@ -12,15 +12,19 @@ export const Navigation: React.FC<NavigationProps> = ({}) => {
       <Container maxW="6xl">
         <Box display={'flex'} alignItems={'center'} gap={'20px'} color="white">
           <Link to="/" style={{ display: 'inline' }}>
-            <Text display={'inline'} fontSize="3xl" fontWeight={'bold'}>
-              <Image
-                src={wonderpal}
-                height={'36px'}
-                display="inline"
-                borderRadius="full"
-                verticalAlign={'text-bottom'}
-                marginRight="12px"
-              />
+            <Image
+              src={wonderpal}
+              height={'36px'}
+              display="inline"
+              borderRadius="full"
+              verticalAlign={'text-bottom'}
+              marginRight="12px"
+            />
+            <Text
+              display={['none', null, 'inline']}
+              fontSize="3xl"
+              fontWeight={'bold'}
+            >
               Eric Xie
             </Text>
           </Link>

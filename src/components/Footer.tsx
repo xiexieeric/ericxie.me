@@ -1,13 +1,22 @@
-import { Container, Flex, List, ListItem, Text } from '@chakra-ui/react'
+import {
+  Container,
+  Flex,
+  List,
+  ListItem,
+  propNames,
+  Text,
+} from '@chakra-ui/react'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
-interface FooterProps {}
+interface FooterProps {
+  style: any
+}
 
-export const Footer: React.FC<FooterProps> = ({}) => {
+export const Footer: React.FC<FooterProps> = ({ style }) => {
   return (
-    <footer>
+    <footer style={style}>
       <Container maxW="6xl">
         <Flex flexDir={'column'} alignItems={'center'}>
           <Text fontSize={24}>Connect With Me</Text>

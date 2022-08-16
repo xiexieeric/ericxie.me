@@ -1,0 +1,53 @@
+.blog-body {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+    /* font-weight: 700; */
+    border-bottom: 1px solid lightgrey;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  blockquote {
+    font-style: italic;
+    padding: 8px;
+  }
+
+  ul,
+  ol {
+    margin-left: 32px;
+  }
+
+  p,
+  ul {
+    margin-bottom: 16px;
+  }
+
+  h1:not(:first-child),
+  h2:not(:first-child),
+  h3:not(:first-child),
+  h4:not(:first-child) {
+    margin-top: 2rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    scroll-margin-top: 80px;
+  }
+}

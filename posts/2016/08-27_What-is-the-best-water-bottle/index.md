@@ -3,7 +3,7 @@ title: What is the Best Water Bottle?
 description: >-
   Hydration is no joke, and unless you have the water-retention of a camel,
   you’re probably drinking water throughout the day, and for more…
-date: '2016-08-27T20:50:16.890Z'
+date: "2016-08-27T20:50:16.890Z"
 categories: []
 keywords: []
 published: true

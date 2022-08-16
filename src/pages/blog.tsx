@@ -12,14 +12,7 @@ function BlogPage({ data }: { data: any }) {
         Blog
       </Text>
       {data.allMdx.nodes.map(({ excerpt, frontmatter, slug, id }) => (
-        <Box
-          key={id}
-          as="article"
-          sx={{
-            mb: 4,
-            p: 3,
-          }}
-        >
+        <Box key={id} as="article" marginBottom="4">
           <Link as={GatsbyLink} to={`/blog/${slug}`}>
             <Heading fontSize="xl">{frontmatter.title}</Heading>{' '}
           </Link>

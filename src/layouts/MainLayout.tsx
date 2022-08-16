@@ -20,7 +20,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       <Container maxW="6xl" marginTop="36px">
         {children}
       </Container>
-      <Footer />
+      <Footer style={{ marginTop: '36px' }} />
     </div>
   )
 }

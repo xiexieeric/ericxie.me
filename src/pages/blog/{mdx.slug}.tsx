@@ -4,6 +4,8 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import React from 'react'
 import { MainLayout } from '../../layouts/MainLayout'
 
+import '../../css/blog.scss'
+
 export default function PostPage({ data }) {
   const {
     body,
@@ -15,7 +17,9 @@ export default function PostPage({ data }) {
         <Box as="h1" fontSize="4xl" marginBottom={'24px'}>
           {title}
         </Box>
-        <MDXRenderer>{body}</MDXRenderer>
+        <Box className="blog-body">
+          <MDXRenderer className>{body}</MDXRenderer>
+        </Box>
       </Container>
     </MainLayout>
   )

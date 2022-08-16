@@ -1,9 +1,9 @@
 ---
-title: 'Onebaggin’ it in Japan: The Maiden Voyage of my Cotopaxi Allpa'
+title: "Onebaggin’ it in Japan: The Maiden Voyage of my Cotopaxi Allpa"
 description: >-
   This past winter break, I had the pleasure of experiencing Japan on a two-week
   trip with friends. It was a trip that I had been looking…
-date: '2018-03-09T03:02:54.716Z'
+date: "2018-03-09T03:02:54.716Z"
 categories: []
 keywords: []
 published: true
@@ -31,11 +31,11 @@ With my new user requirements, I decided to try out two very popular bags within
 
 Storage-wise, I was able to fit the same amount into both bags, but I found that it was much harder to open the outer pockets when the bags were fully loaded, rendering them semi-useless. Both bags had rigid walls and many organizational compartments, which certainly helped with the packing process, but contributed greatly to the overall weight.
 
-With its wide but thin straps and no hip-belt option, I found the Aer Travel Pack feeling like a tortoise shell on my back, both blocky and heavy with prolonged wear. The Tortuga was heavier than the Aer, but tries to make up for it with its detachable hip belt and thicker straps. Nevertheless, neither I nor my roommates could get over the fact that I looked like I was carrying a huge black box when I put both bags on. Both also touted a ton of pouches and organizers, but divided the bag space into so many small sections that it almost felt like I had less space. At this point I felt like I had to get the [Minaal Carry-On 2.0](https://www.minaal.com/products/minaal-carry-on-bag), an expensive but popular bag that was liked for its lightness, ergnomics, and packability. It claimed to hold the same amount of things as these 30–35L bags in a much smaller, less structured form factor, making it look **and** feel less bulky and obnoxious. If not for the \$299 pricetag and non-refundable shipping, I probably would have tried it out, until I noticed…
+With its wide but thin straps and no hip-belt option, I found the Aer Travel Pack feeling like a tortoise shell on my back, both blocky and heavy with prolonged wear. The Tortuga was heavier than the Aer, but tries to make up for it with its detachable hip belt and thicker straps. Nevertheless, neither I nor my roommates could get over the fact that I looked like I was carrying a huge black box when I put both bags on. Both also touted a ton of pouches and organizers, but divided the bag space into so many small sections that it almost felt like I had less space. At this point I felt like I had to get the [Minaal Carry-On 2.0](https://www.minaal.com/products/minaal-carry-on-bag), an expensive but popular bag that was liked for its lightness, ergnomics, and packability. It claimed to hold the same amount of things as these 30–35L bags in a much smaller, less structured form factor, making it look **and** feel less bulky and obnoxious. If not for the $299 pricetag and non-refundable shipping, I probably would have tried it out, until I noticed…
 
 #### Act III: The Cotopaxi Allpa
 
-Long story short, there’s a company called Cotopaxi that came out with a bag that’s basically a \$170 Minaal Carry-On 2.0. Similar rounded shape, lightweight, included raincover, and stow-able straps for when you want to check your bag. Aside from being so much cheaper, what made the Allpa a better choice in my opinion was that it loads in a rectangular cavity just like a suitcase, whereas the Minaal forces you to pack into the rounded shell and close the rest of the bag onto it.
+Long story short, there’s a company called Cotopaxi that came out with a bag that’s basically a $170 Minaal Carry-On 2.0. Similar rounded shape, lightweight, included raincover, and stow-able straps for when you want to check your bag. Aside from being so much cheaper, what made the Allpa a better choice in my opinion was that it loads in a rectangular cavity just like a suitcase, whereas the Minaal forces you to pack into the rounded shell and close the rest of the bag onto it.
 
 ![](./1__urhxpGMwUEMpxWtuHhNDnA.jpeg)  
 ![](./1__yIiMUeKT3H6B0kePlb1Ymg.jpeg)  
